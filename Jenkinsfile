@@ -6,7 +6,7 @@ pipeline {
 
             steps {
               
-                    sh 'mvn clean compile'
+                   'mvn clean compile'
               
             }
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                
-                    sh 'mvn test'
+                    mvn test
                
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                
-                    sh 'mvn deploy'
+                    mvn deploy
                
             }
         }
