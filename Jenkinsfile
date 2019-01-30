@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage ('Compile Stage') {
 		 	steps {
-             mvnHome = tool 'M2_HOME' 
-                bat(/"${mvnHome}\bin\mvn" clean compile/)
+            
+                bat(/"${maven_3_5_3}\bin\mvn" clean compile/)
             }
         }
 
