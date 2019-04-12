@@ -55,18 +55,34 @@
 
     </dependencies>
 
-    <repositories>
+   <!-- <repositories>
         <repository>
             <id>myMavenRepo.read</id>
             <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
         </repository>
     </repositories>
+-->
+<!--
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
         </repository>
+    </distributionManagement>
+-->
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>395f7a5cd247-releases</name>
+            <url>http://localhost:8081/artifactory/libs-sanapshot-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>395f7a5cd247-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-sanapshot-local</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
