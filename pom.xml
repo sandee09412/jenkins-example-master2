@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers.testing</groupId>
@@ -55,22 +55,20 @@
 
     </dependencies>
 
-    <repositories>
+   <!-- <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>https://github.com/sandee09412/jenkins-example-master2</url>
+            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
-
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>https://github.com/sandee09412/jenkins-example-master2</url>
+            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
         </repository>
     </distributionManagement>
-
-
+-->
     <distributionManagement>
         <repository>
             <id>central</id>
@@ -83,5 +81,4 @@
             <url>http://localhost:8081/artifactory/libs-sanapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
-
 </project>
