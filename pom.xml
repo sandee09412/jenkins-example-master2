@@ -55,22 +55,21 @@
 
     </dependencies>
 
-   <!-- <repositories>
+    <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
+            <url>https://github.com/sandee09412/jenkins-example-master2</url>
         </repository>
     </repositories>
--->
-<!--
+
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
+            <url>https://github.com/sandee09412/jenkins-example-master2</url>
         </repository>
     </distributionManagement>
--->
+
 
     <distributionManagement>
         <repository>
