@@ -73,12 +73,12 @@
         <repository>
             <id>central</id>
             <name>395f7a5cd247-releases</name>
-            <url>http://localhost:8081/artifactory/libs-release-local</url>
+            <url>http://artifactory:8081/artifactory/libs-release-local</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>395f7a5cd247-snapshots</name>
-            <url>http://localhost:8081/artifactory/libs-sanapshot-local</url>
+            <url>http://artifactory:8081/artifactory/libs-sanapshot-local</url>
         </snapshotRepository>
 
     </distributionManagement>
